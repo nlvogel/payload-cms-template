@@ -36,16 +36,7 @@ const Posts: CollectionConfig = {
     },
     {
       name: 'content',
-      type: 'richText',
-      upload: {
-        collections: {
-          media: {
-            fields: [
-                'filename', 'alt'
-            ]
-          }
-        }
-      }
+      type: 'richText'
     },
     {
       name: 'status',
