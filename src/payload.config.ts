@@ -21,7 +21,7 @@ const adapter = s3Adapter({
     region: process.env.S3_REGION,
     endpoint: process.env.S3_ENDPOINT,
   },
-  bucket: process.env.S3_BUCKET,
+  bucket: process.env.S3_BUCKET_NAME,
 })
 
 export default buildConfig({
