@@ -663,6 +663,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@payloadcms/plugin-cloud-storage@npm:^1.0.19":
+  version: 1.0.19
+  resolution: "@payloadcms/plugin-cloud-storage@npm:1.0.19"
+  dependencies:
+    range-parser: ^1.2.1
+  peerDependencies:
+    "@aws-sdk/client-s3": ^3.142.0
+    "@aws-sdk/lib-storage": ^3.267.0
+    "@azure/storage-blob": ^12.11.0
+    "@google-cloud/storage": ^6.4.1
+    payload: ^1.7.2
+  peerDependenciesMeta:
+    "@aws-sdk/client-s3":
+      optional: true
+    "@aws-sdk/lib-storage":
+      optional: true
+    "@azure/storage-blob":
+      optional: true
+    "@google-cloud/storage":
+      optional: true
+  checksum: 0ad000720affc884241671df89cb1dcae3ec0d26d193f62328031950043cf850366d0caf599a7e4acfec2924e35f7eaef98edd07050e962df7f338f119b2a6f2
+  languageName: node
+  linkType: hard
+
 "@pkgjs/parseargs@npm:^0.11.0":
   version: 0.11.0
   resolution: "@pkgjs/parseargs@npm:0.11.0"
@@ -5847,6 +5871,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "payload-cms-template@workspace:."
   dependencies:
+    "@payloadcms/plugin-cloud-storage": ^1.0.19
     "@types/express": ^4.17.9
     "@types/html-minifier-terser": 7.0.0
     "@types/http-errors": 2.0.1
