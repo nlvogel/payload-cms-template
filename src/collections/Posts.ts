@@ -1,6 +1,4 @@
 import {CollectionConfig} from 'payload/types';
-import getSiblingData from "payload/dist/admin/components/forms/Form/getSiblingData";
-import {name} from "http-errors";
 
 const Posts: CollectionConfig = {
     slug: 'posts',
